@@ -6,6 +6,7 @@
         <meta charset="UTF-8"> <!--set de caracteres-->
 
         <!--viewport para diseño responsivo en cualquier dispositivo-->
+        <!-- Ajusta el contenido al ancho de la pantalla -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Pagina de santiago (emulación)</HTMl></title> <!--titulo de la pagina, se muestra en la pestaña del navegador-->
 
@@ -137,9 +138,24 @@
                 </div>
             </section>
 
-            <!--sección 2-->
+            <!--sección formulario-->
             <section>
-                <img src="">                
+                <h3>Formulario</h3>
+                <h2>HTML Forms</h2>
+
+                <form action="/action_page.php">
+
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    
+                    <br>
+                    <input type="reset">
+                    <input type="submit" value="Submit">
+                </form>
+                
             </section>
 
         </main>
