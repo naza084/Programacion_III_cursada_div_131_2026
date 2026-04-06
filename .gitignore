@@ -1,0 +1,10 @@
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Archivos de workspace de VS Code
+*.code-workspace
+
