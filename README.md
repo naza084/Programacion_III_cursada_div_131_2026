@@ -5,8 +5,7 @@ Mi espacio de trabajo.
 ![img](/img/banner-readme.gif)
 
 
-### Temario de la materia
----
+## Temario de la materia
 
 - **HTML5 semántico:** Estructura de páginas web, formularios, accesibilidad básica y buenas prácticas de marcado.
 - **CSS3 y diseño responsive:** Selectores, box model, flexbox, grid, media queries y diseño adaptable a múltiples dispositivos.
