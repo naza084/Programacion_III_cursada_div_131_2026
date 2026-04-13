@@ -1,0 +1,69 @@
+/*==================
+    Maquetas
+==================*/
+
+
+/*==================
+    Generales
+==================*/
+
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+/*==================
+    Header
+==================*/
+
+header, header ul, .icono-container{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    justify-content: center;
+}
+
+
+header ul{
+    justify-content: space-around;
+}
+
+header nav{
+    width: 60%;
+}
+
+
+.icono-header{
+    width: 25px;
+}
+
+.icono-header img {
+    width: 100%;
+}
+/*==================
+    Main
+==================*/
+
+section{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+
+}
+#iphone {
+    background-image: url(https://www.apple.com/v/home/a/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg);
+    border: 2px solid;
+    height: 400px;
+}
+

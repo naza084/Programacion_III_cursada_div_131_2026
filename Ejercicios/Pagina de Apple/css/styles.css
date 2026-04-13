@@ -1,0 +1,102 @@
+/*
+============================
+        Maquetas
+============================
+*/
+
+/* multiples selectores para aplicar un solo estilo, esto es para visualizar las partes de la pagina con bordes
+header, .iconos-header, .iconos-container, nav {
+    border: 2px solid black;
+}
+*/
+
+/*
+============================
+        Generales
+============================
+*/
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* para cambiar la fuente de toda la pagina, se pueden usar varias fuentes, en caso de que no se pueda cargar una, se cargara la siguiente*/
+}
+
+a {
+    text-decoration: none; /* para quitar el subrayado de los enlaces*/
+    color: black; /* para cambiar el color de los enlaces*/
+} 
+
+ul {
+    padding-left: 0; /* para quitar la sangria o espacio lateral desde la izquierda de la pagina*/
+    list-style: none; /* para quitar los puntos de las listas*/
+}
+
+
+/*
+============================
+        Header
+============================
+*/
+
+
+header, ul, .iconos-container{
+    display: flex; /*para alinear los elementos en una sola fila*/
+    align-items: center; /*para alinear los elementos verticalmente en el centro*/
+}
+
+header {
+    justify-content: center;
+}
+
+
+header ul {
+    justify-content: space-around; /* para separar los elementos del header, en este caso, el logo, los iconos y el menu*/
+}
+
+header nav {
+    width: 65%;
+}
+
+.iconos-header {
+    width: 25px;
+}
+
+
+/*selector descendiente*/
+/*usamos esto porque el tamaño de la imagen no estaba sujeta 
+al tamaño del contenedor, osea, no se podía ajustar*/
+.iconos-header img {
+    width: 100%;
+}
+
+
+/*
+============================
+        MainP
+============================
+*/
+
+section {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#Iphone {
+    background-image: url(https://www.apple.com/v/home/a/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg);
+    height: 400px;
+}
+
+
+
+
+
+/*
+============================
+        Sections
+============================
+*/
+
+/*
+copiado
+*/
