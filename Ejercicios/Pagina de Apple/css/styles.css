@@ -51,14 +51,20 @@ header {
 
 header ul {
     justify-content: space-around; /* para separar los elementos del header, en este caso, el logo, los iconos y el menu*/
+    flex-wrap: wrap;
 }
 
 header nav {
     width: 65%;
 }
 
+header a {
+    padding: 5px 10px; /* para agregar espacio entre los enlaces del menu*/
+}
+
 .iconos-header {
     width: 25px;
+    padding: 0px 10px; /* para agregar espacio entre los iconos del header*/
 }
 
 
@@ -72,14 +78,17 @@ al tamaño del contenedor, osea, no se podía ajustar*/
 
 /*
 ============================
-        MainP
+        Main
 ============================
 */
 
 section {
-    text-align: center;
+    /* text-align: center; */
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #Iphone {
@@ -87,8 +96,27 @@ section {
     height: 400px;
 }
 
+.button-container {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
 
+.button-obj {
+    padding: 5px 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    font-style: italic;
+    border-radius: 13px;
+}
 
+.button-obj:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
 
 
 /*
@@ -98,5 +126,4 @@ section {
 */
 
 /*
-copiado
 */
