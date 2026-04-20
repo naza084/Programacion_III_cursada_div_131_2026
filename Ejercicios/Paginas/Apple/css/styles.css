@@ -16,6 +16,14 @@ header, .iconos-header, .iconos-container, nav {
 ============================
 */
 
+
+/*Variables CSS
+se declaran con --*/
+:root {
+    --btn-blue: #4c57fd;
+}
+
+
 body {
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* para cambiar la fuente de toda la pagina, se pueden usar varias fuentes, en caso de que no se pueda cargar una, se cargara la siguiente*/
@@ -91,39 +99,106 @@ section {
     align-items: center;
 }
 
+
+#Reloj {
+    background-image: url(https://www.apple.com/v/home/cm/images/heroes/apple-watch-series-11/hero_apple_watch_series_11__bdz1mml4dx6q_large.jpg);
+    height: 480px;
+}
+
+#Img-titulo-reloj {
+    margin: 0;
+    display: block;
+    width: 400px;
+}
+
 #Iphone {
     background-image: url(https://www.apple.com/v/home/a/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg);
+    height: 480px;
+}
+
+#MacBookNeo {
+    background-image: url(https://www.apple.com/v/home/cm/images/heroes/macbook-neo/hero_macbook_neo__gnm3snkti4a6_large.jpg);
+    border: 2px solid black;
     height: 400px;
 }
 
-.button-container {
-    border: 1px solid blue;
-    display: flex;
-    justify-content: space-around;
-    width: 20%;
+#MacBook-Neo-Pro {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/macbook-pro/promo_macbook_pro__e3xqrygvp9ea_large.jpg);
+    height: 400px;
+    flex: 1;
 }
 
-.button-obj {
-    padding: 5px 10px;
+#Ipad {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/ipad-air-m4/promo_ipad_air_m4__f9ie3h3pzr6m_large.jpg);
+    height: 400px;
+    flex: 1;
+}
+
+#AirPods {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large.jpg);
+    height: 400px;
+    flex: 1;
+}
+
+
+#Business {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg);
+}
+
+#Promo {
+    background-image: url(https://www.apple.com/v/home/cm/images/promos/apple-business/promo_apple_business__fi88n3dz0emq_large.jpg);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin-top: 25px;
+}
+
+.button-primary {
+    padding: 5px 15px;
     border: none;
-    background-color: blue;
+    background-color: var(--btn-blue);
     color: white;
-    font-size: 1.2rem;
-    font-style: italic;
+    font-size: 1.1rem;
     border-radius: 13px;
 }
 
-.button-obj:hover {
+.button-secundary {
+    border: none;
+    border-radius: 13px;
+    font-size: 1.1rem;
+    padding: 5px 15px;
+    background-color: white;
+    color: blue;
+}
+
+
+.button-primary:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.button-secundary:hover {
     background-color: lightblue;
     cursor: pointer;
 }
 
 
+.prod-titulo {
+    font-size: 48px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: 0px;
+}
+
+.prod-descripción {
+    font-size: 20px;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 /*
 ============================
         Sections
 ============================
-*/
-
-/*
 */
